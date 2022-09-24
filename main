@@ -13,27 +13,33 @@ function send1(Ti,Tex,Duratio)
     Duration = Duratio; -- how long the notification should in secounds
 })
 
+while true do
+    -- lumber tycoon 2
+    if Id == 2471084 then
+        send1("Game","lumber tycoon 2",5)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/lumber_tycoon2"))()
+      break
+    end
 
--- lumber tycoon 2
-if Id == 2471084 then
-    send1("Game","lumber tycoon 2",5)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/lumber_tycoon2"))()
+     -- big paintball
+     if Id == 123 then
+        send1("Game","big paintball",5)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/BIG%20Paintball!"))()
+      break
+     end
+
+     -- Murder Mystery 2
+     if Id == 123 then
+        send1("Game","Murder Mystery 2",5)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202"))()
+      break
+     end
+
+      -- sword fighting sim
+     if Id == 123 then
+        send1("Game","sword fighting sim",5)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+      break
+     end
+     send1("Script","Cannt Find game",5)
 end
- 
- -- big paintball
- if Id == 123 then
-    send1("Game","big paintball",5)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/BIG%20Paintball!"))()
- end
- 
- -- Murder Mystery 2
- if Id == 123 then
-    send1("Game","Murder Mystery 2",5)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202"))()
- end
- 
-  -- sword fighting sim
- if Id == 123 then
-    send1("Game","sword fighting sim",5)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
- end
