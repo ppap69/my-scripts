@@ -5,6 +5,8 @@ while Id == 0 or Id == nil do
     wait(0.2)
 end
 
+print(Id)
+
 function send1(Ti,Tex,Duratio) 
     game.StarterGui:SetCore("SendNotification", {
     Title = Ti; -- the title (ofc)
@@ -22,21 +24,21 @@ while true do
     end
 
      -- big paintball
-     if Id == 123 then
+     if Id == 1247975681 then
         send1("Game","big paintball",5)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/BIG%20Paintball!"))()
       break
      end
 
      -- Murder Mystery 2
-     if Id == 123 then
-        send1("Game","Murder Mystery 2",5)
+     if Id == 66654135 then
+        send1("Game","",5)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202"))()
       break
      end
 
       -- sword fighting sim
-     if Id == 123 then
+     if Id == 3262314006 then
         send1("Game","sword fighting sim",5)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
       break
@@ -44,3 +46,4 @@ while true do
      send1("Script","Cannt Find game",5)
      break
 end
+
