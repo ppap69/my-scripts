@@ -1,0 +1,26 @@
+local Id = game.GameId
+
+while Id == 0 or Id == nil do
+    Id = game.GameId
+    wait(0.2)
+end
+
+-- lumber tycoon 2
+if Id == 2471084 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/lumber_tycoon2"))()
+end
+ 
+ -- big paintball
+ if Id == 123 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ppap69/my-scripts/main/BIG%20Paintball!"))()
+ end
+ 
+ -- Murder Mystery 2
+ if Id == 123 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202"))()
+ end
+ 
+  -- sword fighting sim
+ if Id == 123 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+ end
