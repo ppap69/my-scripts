@@ -11,7 +11,7 @@ function send1(Ti,Tex,Duratio)
     Text = Tex; -- what the text says (ofc)
     Icon = "rbxassetid://57254792"; -- the image if u want. 
     Duration = Duratio; -- how long the notification should in secounds
-})
+})end
 
 while true do
     -- lumber tycoon 2
@@ -42,4 +42,5 @@ while true do
       break
      end
      send1("Script","Cannt Find game",5)
+     break
 end
